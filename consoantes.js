@@ -16,7 +16,13 @@ for(let i = 0; i< arrayLetras.length; i++){
     if(consoantes.includes(arrayLetras[i])){
         arrayConsoantes.push(arrayLetras[i]);
     } else {
-        espacos++
+        Espacos++
     }
 
 }
+console.log("texto original:", texto);
+console.log("vogais encontradas:", arrayVogais.toString());
+console.log("total de vogais:" + arrayVogais.length);
+console.log("consoantes encontradas:", arrayConsoantes.toString());
+console.log("total de consoantes:" + arrayConsoantes.length);
+console.log("total de espaços:" + Espacos);
